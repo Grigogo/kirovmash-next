@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-conveyor}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-conveyor_pass}
+      POSTGRES_DB: ${POSTGRES_DB:-conveyor_db}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
