@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "defaultTitle": "Kirovmash — conveyor equipment",
+    "description": "Manufacturing and servicing conveyor equipment: belt, screw, scraper conveyors, bucket elevators."
+  },
+  "common": {
+    "cta": {
+      "contactUs": "Request a call",
+      "viewCatalog": "View catalog",
+      "learnMore": "Learn more",
+      "sendRequest": "Send request"
+    },
+    "loading": "Loading...",
+    "error": "An error occurred"
+  },
+  "nav": {
+    "about": "About",
+    "catalog": "Products",
+    "solutions": "Industry solutions",
+    "services": "Services",
+    "contacts": "Contacts"
+  },
+  "home": {
+    "hero": {
+      "title": "Conveyor equipment",
+      "subtitle": "Manufacturing and service",
+      "description": "We design and manufacture conveyors, bucket elevators for industrial enterprises. Quality and reliability guaranteed."
+    },
+    "products": {
+      "title": "Our products"
+    },
+    "services": {
+      "title": "Our services"
+    }
+  }
+}

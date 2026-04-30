@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "db:seed": "tsx prisma/seed.ts"
   },
   "prisma": {
@@ -15,6 +17,7 @@
   "dependencies": {
     "@prisma/client": "^6.19.3",
     "next": "16.2.4",
+    "next-intl": "^4.11.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "web-vitals": "^5.2.0"
@@ -24,12 +27,14 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6.0.1",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
     "prisma": "^6.19.3",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^3.2.4"
   }
 }

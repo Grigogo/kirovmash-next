@@ -14,8 +14,9 @@ Corporate website for a conveyor equipment manufacturing and service company: pu
 - **Authentication:** Auth.js v5 (NextAuth)
 - **Validation:** Zod
 - **Forms:** React Hook Form + Zod resolver
-- **i18n:** next-intl (ru + en)
+- **i18n:** next-intl v4 (ru + en)
 - **Icons:** lucide-react
+- **Testing:** Vitest 3.x (unit tests for lib/ utilities)
 
 ## Architecture
 
@@ -23,7 +24,10 @@ Corporate website for a conveyor equipment manufacturing and service company: pu
 
 ```
 app/                    # Next.js App Router
-├── (public)/           # Public site pages
+├── [locale]/           # Locale-scoped routes (ru/en)
+│   ├── layout.tsx      # Locale layout: html lang, NextIntlClientProvider
+│   └── page.tsx        # Home page with i18n
+├── (public)/           # Public site pages (to be moved under [locale])
 ├── admin/              # Admin panel (protected by middleware)
 ├── api/                # API routes (minimal, webhooks only)
 lib/
@@ -88,22 +92,23 @@ messages/               # i18n translations (ru.json, en.json)
 
 ## Current Status
 
-Project is in early development stage. Basic Next.js setup exists with:
-- Core dependencies installed
-- Docker Compose for PostgreSQL
-- Basic i18n and DB utilities in lib/
+Foundation is complete. Implemented:
+- Core dependencies, Docker Compose for PostgreSQL
+- Prisma schema with translation tables (all entities)
+- i18n infrastructure: next-intl v4, locale routing/middleware, ru.json + en.json
+- SEO infrastructure: metadata helper, sitemap, robots, image optimization, WebVitals
+- Vitest setup with unit tests for lib/i18n.ts
 
-To be implemented based on CLAUDE.md:
-- Full app route structure (public pages, admin)
-- Prisma schema with translations
-- Server Actions for CRUD operations
-- Admin authentication and protection
-- Complete i18n setup with translations
+To be implemented:
+- Public site layout (header, footer, navigation)
+- Product catalog pages
+- Services section
+- Static pages (About, Contacts)
+- Admin panel (authentication, CRUD)
+- Lead capture (contact form)
 
 ## Next Steps
 
-1. Create Prisma schema with translation tables
-2. Set up app route structure per CLAUDE.md
-3. Implement Server Actions for entities
-4. Build admin panel with authentication
-5. Add public site pages with i18n
+1. **Public Site Layout** — header, footer, navigation with i18n
+2. **Product Catalog** — category listing and product detail pages
+3. **Admin Authentication** — Auth.js setup
