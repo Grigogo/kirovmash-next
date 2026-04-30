@@ -1,4 +1,8 @@
+import type { Metadata } from "next";
 import Image from "next/image";
+import { generatePageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = generatePageMetadata("ru", { path: "/" });
 
 export default function Home() {
   return (
