@@ -17,6 +17,7 @@ Corporate website for a conveyor equipment manufacturing and service company: pu
 - **i18n:** next-intl v4 (ru + en)
 - **Icons:** lucide-react
 - **Testing:** Vitest 3.x (unit tests for lib/ utilities)
+- **Component Library:** shadcn/ui v4.6 (base-nova style, base-ui primitives, neutral + industrial orange primary `oklch(0.65 0.18 45)`)
 
 ## Architecture
 
@@ -26,7 +27,9 @@ Corporate website for a conveyor equipment manufacturing and service company: pu
 app/                    # Next.js App Router
 ├── [locale]/           # Locale-scoped routes (ru/en)
 │   ├── layout.tsx      # Locale layout: html lang, NextIntlClientProvider
-│   └── page.tsx        # Home page with i18n
+│   └── (public)/       # Public site route group
+│       ├── layout.tsx  # Public layout: Header + main + Footer
+│       └── page.tsx    # Home page with i18n
 ├── (public)/           # Public site pages (to be moved under [locale])
 ├── admin/              # Admin panel (protected by middleware)
 ├── api/                # API routes (minimal, webhooks only)
@@ -100,7 +103,6 @@ Foundation is complete. Implemented:
 - Vitest setup with unit tests for lib/i18n.ts
 
 To be implemented:
-- Public site layout (header, footer, navigation)
 - Product catalog pages
 - Services section
 - Static pages (About, Contacts)

@@ -11,14 +11,23 @@
       "sendRequest": "Отправить заявку"
     },
     "loading": "Загрузка...",
-    "error": "Произошла ошибка"
+    "error": "Произошла ошибка",
+    "language": "Язык"
   },
   "nav": {
     "about": "О компании",
     "catalog": "Продукция",
     "solutions": "Отраслевые решения",
     "services": "Услуги",
-    "contacts": "Контакты"
+    "contacts": "Контакты",
+    "mobileMenuOpen": "Открыть меню",
+    "mobileMenuClose": "Закрыть меню"
+  },
+  "footer": {
+    "tagline": "Производство и обслуживание конвейерного оборудования",
+    "phone": "+7 (495) 000-00-00",
+    "email": "info@kirovmash.ru",
+    "copyright": "© 2024 Кировмаш. Все права защищены."
   },
   "home": {
     "hero": {

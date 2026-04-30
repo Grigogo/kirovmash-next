@@ -11,14 +11,23 @@
       "sendRequest": "Send request"
     },
     "loading": "Loading...",
-    "error": "An error occurred"
+    "error": "An error occurred",
+    "language": "Language"
   },
   "nav": {
     "about": "About",
     "catalog": "Products",
     "solutions": "Industry solutions",
     "services": "Services",
-    "contacts": "Contacts"
+    "contacts": "Contacts",
+    "mobileMenuOpen": "Open menu",
+    "mobileMenuClose": "Close menu"
+  },
+  "footer": {
+    "tagline": "Conveyor equipment manufacturing and service",
+    "phone": "+7 (495) 000-00-00",
+    "email": "info@kirovmash.ru",
+    "copyright": "© 2024 Kirovmash. All rights reserved."
   },
   "home": {
     "hero": {
