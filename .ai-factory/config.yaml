@@ -1,0 +1,17 @@
+language:
+  ui: ru
+  artifacts: en
+  technical_terms: keep
+
+git:
+  enabled: true
+  base_branch: main
+  create_branches: true
+  branch_prefix: feature/
+
+paths:
+  qa: .ai-factory/qa/
+  rules: .ai-factory/rules/
+
+rules:
+  base: .ai-factory/rules/base.md
