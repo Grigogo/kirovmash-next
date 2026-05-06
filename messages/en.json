@@ -29,6 +29,17 @@
     "email": "info@kirovmash.ru",
     "copyright": "© 2024 Kirovmash. All rights reserved."
   },
+  "services": {
+    "title": "Services",
+    "description": "Comprehensive conveyor equipment maintenance and service",
+    "noServices": "No services found",
+    "service": {
+      "priceFrom": "Price from",
+      "priceOnRequest": "Price on request",
+      "requestButton": "Request price",
+      "backToServices": "All services"
+    }
+  },
   "home": {
     "hero": {
       "title": "Conveyor equipment",

@@ -29,6 +29,17 @@
     "email": "info@kirovmash.ru",
     "copyright": "© 2024 Кировмаш. Все права защищены."
   },
+  "services": {
+    "title": "Услуги",
+    "description": "Комплексное обслуживание конвейерного оборудования",
+    "noServices": "Услуги не найдены",
+    "service": {
+      "priceFrom": "Стоимость от",
+      "priceOnRequest": "Стоимость по запросу",
+      "requestButton": "Запросить стоимость",
+      "backToServices": "Все услуги"
+    }
+  },
   "home": {
     "hero": {
       "title": "Конвейерное оборудование",
