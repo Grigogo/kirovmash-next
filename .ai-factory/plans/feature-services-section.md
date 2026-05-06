@@ -59,14 +59,14 @@
 
 ### Phase 3: Pages
 
-**3.1 Create services listing page** — `#12`
+**3.1 Create services listing page** ✅ — `#12`
 - File: `app/[locale]/(public)/services/page.tsx` (create, Server Component)
 - Fetches published services with locale translations
 - Grid of `<ServiceCard>` (3-2-1 responsive)
 - `generateStaticParams` + `generateMetadata`
 - Blocked by: #10, #11
 
-**3.2 Create service detail page** — `#13`
+**3.2 Create service detail page** ✅ — `#13`
 - File: `app/[locale]/(public)/services/[slug]/page.tsx` (create, Server Component)
 - Fetches service by slug with translations
 - `notFound()` if not found or not published
