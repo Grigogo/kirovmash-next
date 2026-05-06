@@ -73,7 +73,7 @@
 
 ### Phase 3: Components
 
-**3.1 Create ContactForm client component** — `#18`
+**3.1 Create ContactForm client component** ✅ — `#18`
 - File: `components/public/contact-form.tsx` (`'use client'`)
 - Props: translated label strings (name, phone, email, message, submit, submitting, success, error labels)
 - React Hook Form + `zodResolver(createLeadSchema)`
@@ -87,14 +87,14 @@
 
 ### Phase 4: Pages
 
-**4.1 Create About page** — `#19`
+**4.1 Create About page** ✅ — `#19`
 - File: `app/[locale]/(public)/about/page.tsx` (create, Server Component)
 - `generateStaticParams` + `generateMetadata`
 - Static content from i18n keys: title, description, mission, values
 - Verbose logging: `console.debug('[about/page] locale:', safeLocale)`
 - Blocked by: #15
 
-**4.2 Create Contacts page** — `#20`
+**4.2 Create Contacts page** ✅ — `#20`
 - File: `app/[locale]/(public)/contacts/page.tsx` (create, Server Component)
 - `generateStaticParams` + `generateMetadata`
 - Two-column layout on lg: contact details left, `<ContactForm>` right
