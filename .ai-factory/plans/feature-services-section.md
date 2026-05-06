@@ -82,7 +82,7 @@
 
 ### Phase 4: Tests
 
-**4.1 Write tests for services utility** — `#14`
+**4.1 Write tests for services utility** ✅ — `#14`
 - File: `lib/__tests__/services.test.ts` (create)
 - 4 tests: `pickTranslation` with ServiceTranslation, fallback, empty array, custom fallback
 - Run `npm test` — all tests pass

@@ -8,7 +8,7 @@
 - [x] **i18n Infrastructure** — Set up next-intl routing, middleware, translation files, and utility functions
 - [x] **Public Site Layout** — Build shared layout with header/footer, navigation, and base styling
 - [ ] **Product Catalog** — Create public catalog pages with category listing, product grid, and product detail pages
-- [ ] **Services Section** — Build services listing and individual service pages
+- [x] **Services Section** — Build services listing and individual service pages
 - [ ] **Static Pages** — Implement About and Contacts pages with contact form
 - [ ] **Admin Authentication** — Set up Auth.js with credentials provider, session management, and route protection
 - [ ] **Admin Dashboard** — Create admin layout with sidebar and main dashboard page
