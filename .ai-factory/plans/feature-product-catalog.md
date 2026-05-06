@@ -79,7 +79,7 @@
 
 ### Phase 3: Catalog Layout
 
-**3.1 Create catalog layout with sidebar** — `#5`
+**3.1 Create catalog layout with sidebar** ✅ — `#5`
 - File: `app/[locale]/(public)/catalog/layout.tsx` (create, Server Component)
 - Fetches all categories with locale translations from Prisma
 - Renders `<CatalogSidebar>` + `<main className="flex-1">{children}</main>`
@@ -91,7 +91,7 @@
 
 ### Phase 4: Pages
 
-**4.1 Create catalog landing page** — `#6`
+**4.1 Create catalog landing page** ✅ — `#6`
 - File: `app/[locale]/(public)/catalog/page.tsx` (create, Server Component)
 - Fetches published categories with product counts
 - Grid of `<CategoryCard>` (3-2-1 responsive columns)
@@ -99,7 +99,7 @@
 - Log: `console.debug('[catalog/page] locale:', locale, 'count:', count)`
 - Blocked by: #1, #2
 
-**4.2 Create category page** — `#7`
+**4.2 Create category page** ✅ — `#7`
 - File: `app/[locale]/(public)/catalog/[category]/page.tsx` (create, Server Component)
 - Fetches category + published products with translations
 - `notFound()` if category not found
@@ -109,7 +109,7 @@
 - Log: `console.debug('[catalog/[category]/page] slug:', slug, 'products:', count)`
 - Blocked by: #1, #3, #5
 
-**4.3 Create product detail page** — `#8`
+**4.3 Create product detail page** ✅ — `#8`
 - File: `app/[locale]/(public)/catalog/[category]/[product]/page.tsx` (create, Server Component)
 - Fetches product + category with translations
 - `notFound()` if not found or category mismatch
@@ -126,7 +126,7 @@
 
 ### Phase 5: Tests
 
-**5.1 Write tests for catalog utility helpers** — `#9`
+**5.1 Write tests for catalog utility helpers** ✅ — `#9`
 - File: `lib/__tests__/catalog.test.ts` (create)
 - 4+ tests: `pickTranslation` with CategoryTranslation + ProductTranslation, fallback to 'ru', empty array
 - Any new utility functions from implementation

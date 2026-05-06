@@ -101,9 +101,10 @@ Foundation is complete. Implemented:
 - i18n infrastructure: next-intl v4, locale routing/middleware, ru.json + en.json
 - SEO infrastructure: metadata helper, sitemap, robots, image optimization, WebVitals
 - Vitest setup with unit tests for lib/i18n.ts
+- Public site layout: Header, Footer, SiteNav, LocaleSwitcher, MobileMenu, shadcn/ui
+- Product catalog: CategoryCard, ProductCard, CatalogSidebar, catalog layout with sidebar, catalog landing page, category page, product detail page
 
 To be implemented:
-- Product catalog pages
 - Services section
 - Static pages (About, Contacts)
 - Admin panel (authentication, CRUD)
