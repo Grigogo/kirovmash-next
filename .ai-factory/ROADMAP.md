@@ -7,7 +7,7 @@
 - [x] **Database Schema** — Prisma schema with translation tables for Category, Product, Service, Lead, User entities
 - [x] **i18n Infrastructure** — Set up next-intl routing, middleware, translation files, and utility functions
 - [x] **Public Site Layout** — Build shared layout with header/footer, navigation, and base styling
-- [ ] **Product Catalog** — Create public catalog pages with category listing, product grid, and product detail pages
+- [x] **Product Catalog** — Create public catalog pages with category listing, product grid, and product detail pages
 - [ ] **Services Section** — Build services listing and individual service pages
 - [ ] **Static Pages** — Implement About and Contacts pages with contact form
 - [ ] **Admin Authentication** — Set up Auth.js with credentials provider, session management, and route protection
@@ -30,14 +30,15 @@
 | SEO & Performance | 2026-04-30 | lib/seo.ts, app/sitemap.ts, app/robots.ts, next.config image optimization, WebVitals reporter |
 | i18n Infrastructure | 2026-04-30 | next-intl v4, i18n/routing.ts, i18n/request.ts, proxy.ts, messages/ru.json + en.json, app/[locale]/ structure, Vitest setup |
 | Public Site Layout | 2026-04-30 | shadcn/ui v4.6 (base-nova), Header, Footer, SiteNav, LocaleSwitcher, MobileMenu, (public) route group, nav tests |
+| Product Catalog | 2026-05-06 | CategoryCard, ProductCard, CatalogSidebar, catalog layout with sidebar, catalog/category/product pages, i18n keys |
 
 ## Implementation Progress
 
 ```
 Total: 14 milestones
-Completed: 7 (50%)
+Completed: 8 (57%)
 In Progress: 0
-Pending: 7 (50%)
+Pending: 6 (43%)
 ```
 
 ### Details by Milestone
@@ -47,7 +48,7 @@ Pending: 7 (50%)
 | 1 | Database Schema | ✅ Done | prisma/schema.prisma with Category, Product, Service, Lead, User + translations |
 | 2 | i18n Infrastructure | ✅ Done | next-intl v4, routing, middleware, ru.json + en.json, app/[locale]/ structure, Vitest |
 | 3 | Public Site Layout | ✅ Done | Header, Footer, SiteNav, LocaleSwitcher, MobileMenu, shadcn/ui v4, (public) route group |
-| 4 | Product Catalog | ⏳ Not Started | No catalog pages or product components |
+| 4 | Product Catalog | ✅ Done | CategoryCard, ProductCard, CatalogSidebar, catalog layout, category/product pages |
 | 5 | Services Section | ⏳ Not Started | No service pages |
 | 6 | Static Pages | ⏳ Not Started | No About/Contacts pages |
 | 7 | Admin Authentication | ⏳ Not Started | No Auth.js, no login page |
