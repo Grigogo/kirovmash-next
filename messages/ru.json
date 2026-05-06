@@ -29,6 +29,25 @@
     "email": "info@kirovmash.ru",
     "copyright": "© 2024 Кировмаш. Все права защищены."
   },
+  "catalog": {
+    "title": "Каталог продукции",
+    "description": "Конвейерное оборудование для промышленных предприятий",
+    "noCategories": "Категории не найдены",
+    "category": {
+      "noProducts": "В этой категории нет товаров",
+      "allProducts": "Все категории"
+    },
+    "product": {
+      "price": "Цена",
+      "priceOnRequest": "Цена по запросу",
+      "inStock": "В наличии",
+      "outOfStock": "Под заказ",
+      "specs": "Характеристики",
+      "requestButton": "Запросить стоимость",
+      "backToCategory": "Назад к категории",
+      "images": "Фотографии"
+    }
+  },
   "home": {
     "hero": {
       "title": "Конвейерное оборудование",

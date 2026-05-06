@@ -29,6 +29,25 @@
     "email": "info@kirovmash.ru",
     "copyright": "© 2024 Kirovmash. All rights reserved."
   },
+  "catalog": {
+    "title": "Product catalog",
+    "description": "Conveyor equipment for industrial enterprises",
+    "noCategories": "No categories found",
+    "category": {
+      "noProducts": "No products in this category",
+      "allProducts": "All categories"
+    },
+    "product": {
+      "price": "Price",
+      "priceOnRequest": "Price on request",
+      "inStock": "In stock",
+      "outOfStock": "Made to order",
+      "specs": "Specifications",
+      "requestButton": "Request price",
+      "backToCategory": "Back to category",
+      "images": "Photos"
+    }
+  },
   "home": {
     "hero": {
       "title": "Conveyor equipment",
