@@ -29,6 +29,43 @@
     "email": "info@kirovmash.ru",
     "copyright": "© 2024 Kirovmash. All rights reserved."
   },
+  "about": {
+    "title": "About the company",
+    "description": "Kirovmash is a leading manufacturer of conveyor equipment for industrial enterprises in Russia.",
+    "mission": {
+      "title": "Our mission",
+      "text": "To provide industrial enterprises with reliable conveyor equipment, improving the efficiency of production processes."
+    },
+    "values": {
+      "title": "Our values"
+    },
+    "team": {
+      "title": "Our team"
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "description": "Contact us for a consultation or to place an order.",
+    "address": "Moscow, Primernaya St., 1",
+    "phone": "+7 (495) 000-00-00",
+    "email": "info@kirovmash.ru",
+    "form": {
+      "name": "Your name",
+      "namePlaceholder": "John Smith",
+      "nameRequired": "Please enter your name",
+      "phone": "Phone",
+      "phonePlaceholder": "+7 (000) 000-00-00",
+      "phoneRequired": "Please enter your phone number",
+      "email": "Email",
+      "emailPlaceholder": "example@mail.com",
+      "message": "Message",
+      "messagePlaceholder": "Describe your request...",
+      "submit": "Send",
+      "submitting": "Sending...",
+      "success": "Thank you! We will contact you shortly.",
+      "error": "Failed to send the message. Please try again."
+    }
+  },
   "home": {
     "hero": {
       "title": "Conveyor equipment",
