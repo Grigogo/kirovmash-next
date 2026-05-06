@@ -9,14 +9,14 @@
 - [x] **Public Site Layout** — Build shared layout with header/footer, navigation, and base styling
 - [ ] **Product Catalog** — Create public catalog pages with category listing, product grid, and product detail pages
 - [ ] **Services Section** — Build services listing and individual service pages
-- [ ] **Static Pages** — Implement About and Contacts pages with contact form
+- [x] **Static Pages** — Implement About and Contacts pages with contact form
 - [ ] **Admin Authentication** — Set up Auth.js with credentials provider, session management, and route protection
 - [ ] **Admin Dashboard** — Create admin layout with sidebar and main dashboard page
 - [ ] **Category Management** — Admin CRUD for categories (list, create, edit, delete)
 - [ ] **Product Management** — Admin CRUD for products with rich editor (images, specs, pricing)
 - [ ] **Service Management** — Admin CRUD for services
 - [ ] **Lead Management** — Admin interface to view and manage contact form submissions
-- [ ] **Lead Capture** — Contact form on public site with lead creation and email notification
+- [x] **Lead Capture** — Contact form on public site with lead creation and email notification
 - [x] **SEO & Performance** — Add metadata, sitemap, optimize images, improve Core Web Vitals
 
 ## Completed
@@ -49,14 +49,14 @@ Pending: 7 (50%)
 | 3 | Public Site Layout | ✅ Done | Header, Footer, SiteNav, LocaleSwitcher, MobileMenu, shadcn/ui v4, (public) route group |
 | 4 | Product Catalog | ⏳ Not Started | No catalog pages or product components |
 | 5 | Services Section | ⏳ Not Started | No service pages |
-| 6 | Static Pages | ⏳ Not Started | No About/Contacts pages |
+| 6 | Static Pages | ✅ Done | About page, Contacts page with ContactForm, createLead Server Action |
 | 7 | Admin Authentication | ⏳ Not Started | No Auth.js, no login page |
 | 8 | Admin Dashboard | ⏳ Not Started | No admin layout or dashboard |
 | 9 | Category Management | ⏳ Not Started | No admin CRUD for categories |
 | 10 | Product Management | ⏳ Not Started | No admin CRUD for products |
 | 11 | Service Management | ⏳ Not Started | No admin CRUD for services |
 | 12 | Lead Management | ⏳ Not Started | No admin interface for leads |
-| 13 | Lead Capture | ⏳ Not Started | No public contact form |
+| 13 | Lead Capture | ✅ Done | ContactForm + createLead action + Lead DB persistence |
 | 14 | SEO & Performance | ✅ Done | lib/seo.ts, sitemap.ts, robots.ts, image optimization, WebVitals reporter |
 
 ## Next Steps

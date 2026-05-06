@@ -109,7 +109,7 @@
 
 ### Phase 5: Tests
 
-**5.1 Write tests for lead validator** — `#21`
+**5.1 Write tests for lead validator** ✅ — `#21`
 - File: `lib/__tests__/lead.test.ts` (create)
 - 5 tests via `createLeadSchema.safeParse()`:
   1. valid full input → success
